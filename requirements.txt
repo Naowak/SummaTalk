@@ -1,0 +1,5 @@
+openai-whisper
+python-dotenv
+langchain
+llama_cpp_python
+numpy
