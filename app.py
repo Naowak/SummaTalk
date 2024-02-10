@@ -9,4 +9,4 @@ def hello():
 
 @app.route('/pagetwo')
 def pagetwo():
-    return render_template('index2.html')
+    return render_template('template_figma.html')
