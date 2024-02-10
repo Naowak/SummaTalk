@@ -33,7 +33,9 @@ def pagetwo():
 def rag():
     data = request.get_json()  # Get the JSON data sent with the request
     prompt = data.get('prompt')  # Retrieve the 'prompt' value from the JSON data
-    print("inpuuuuut", prompt)
     chunks = find_closest_chunk(prompt, df, model)
-    print(chunks)
     return 'Success'
+
+
+if __name__ == '__main__':
+    app.run(debug=True)

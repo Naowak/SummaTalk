@@ -2,32 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>FlaskApp</title>
+    <title>SummaTalk - Your Virtual Assistant</title>
+    <link rel="stylesheet" href="/static/index.css">
 </head>
 <body>
-    <form method="post">
-        <input type="text" id="promptInput" name="prompt">
-        <button type="submit" id="submitButton">Click Me</button>
-    </form>
-    <h1>Hello World!</h1>
-    <h2>Welcome to FlaskApp!</h2>
+    <div class="navbar">
+        <div class="logo">
+            <h1>SummaTalk</h1>
+        </div>
+        <div class="nav-buttons">
+            <button class="nav-btn">Start</button>
+            <button class="nav-btn">Home</button>
+            <button class="nav-btn">Account</button>
+            <button class="nav-btn">Settings</button>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="main-text">
+            <h2>Your Virtual Assistant</h2>
+            <h3>We will capture every word for you.</h3>
+        </div>
+        <img src="/static/picture.svg" alt="Team Working">
+    </div>
 </body>
-<script>
-    document.getElementById('submitButton').addEventListener('click', function(event) {
-        event.preventDefault();
-        const prompt = document.getElementById('promptInput').value;
-        fetch('/rag', {
-            method: 'POST',
-            body: JSON.stringify({ prompt }),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        }).then(response => {
-            if (response.ok) {
-                console.log('Button clicked and function executed');
-                // Handle success
-            }
-        });
-    });
-</script>
 </html>
+
+
