@@ -1,0 +1,402 @@
+ La vidéo avec la voix d'Emmanuel Macron, elle a ultra bien marché, mais il manquait un truc.
+ Non, avec le mec qui fait les gestes et tout à côté, c'est incroyable.
+ S'il peut faire tout ça, on sait pas ce qu'il peut faire avec après quoi.
+ C'est vraiment fort.
+ Et si c'était déjà trop tard, et si tout ce que vous voyez ou entendez à partir de maintenant n'était plus réel ?
+ Qu'est-ce qui est vrai et qu'est-ce qui est faux ?
+ Les voir, c'était pas suffisant.
+ Il fallait aller bien plus loin.
+ Bienvenue à tous dans la vidéo de Defun Intelligence.
+ Il va vous montrer que vous ne devez plus rien croire.
+ On pensait que le clonage allait venir d'éprouvettes.
+ Il vient en fait de processeurs d'ordinateurs.
+ On voulait se cacher derrière des masques en utilisant les réseaux sociaux.
+ Résultat, on se fait voler nous-mêmes notre visage.
+ Ça fait des années que des youtubeurs, des streamers, des personnalités publiques laissent leur image traîner sur Internet.
+ Et du coup, si on a votre visage et si on a votre voix, on peut créer un clone de vous.
+ Et pour cette vidéo, on a trois personnes à cloner.
+ Emmanuel Macron, Squeezie et Hugo Décrypte.
+ On a besoin de deux types de données pour chacune de ces personnes.
+ Des données audio et des données vidéo.
+ Et j'ai pris ces trois personnes parce qu'ils représentent tous,
+ à peu près, des niveaux de difficultés différents pour récupérer leurs données personnelles.
+ Emmanuel Macron, c'est le plus simple.
+ C'est le président de la République.
+ On a tout un tas de discours de lui.
+ Hugo Décrypte, ça peut paraître simple parce qu'il y a tout un tas de contenus que Hugo fait face à la caméra
+ en parlant dans une voix un peu monocorde.
+ Mais vous allez voir que ce n'était pas si facile que ça.
+ Et Squeezie qui est numéro un du YouTube français.
+ Mais pour qui ce n'est pas si évident que ça de récupérer ses données personnelles ?
+ Je vais vous montrer.
+ On va s'attaquer déjà à l'audio.
+ Niveau audio, pour Emmanuel Macron, on a déjà ce qu'il faut.
+ Avec le discours.
+ Pour Hugo Décrypte, je pensais que ça allait être ultra simple
+ parce qu'il a tout un tas de vidéos sur YouTube.
+ Mais en fait, dans ses vidéos, il y a de la musique de fond.
+ Alors, vous pouvez retirer la musique de fond.
+ Par exemple, sur Windows, il y a tout un tas de logiciels.
+ Il y en a notamment un qui s'appelle Ultimate Vocal Remover
+ qui vous permet de retirer assez facilement de la musique en fond.
+ Mais comme tout processus destructif,
+ ça va supprimer des données vocales aussi.
+ Ou sinon, vous allez toujours avoir des petits reliquats de musique quand la personne parle.
+ Donc moi, je vous recommande d'essayer de trouver une voix
+ la plus créative.
+ L'air possible.
+ C'est ultra important.
+ Et ça, ça vaut pour tout projet d'intelligence artificielle.
+ Le plus compliqué, c'est toujours de récupérer les bonnes données
+ et trouver les bonnes données.
+ Et du coup, j'ai fouillé dans les contenus d'Hugo.
+ Et Hugo Décrypte, en fait, il fait un podcast.
+ Meute suite à la mort de Naël, tuée par un policier fin juin.
+ C'était parfait.
+ J'avais une source intarissable de la voix d'Hugo.
+ Donc, j'ai récupéré ça.
+ J'ai récupéré à peu près 15-20 minutes.
+ Pour Squeezie, c'était plus compliqué.
+ Parce que quand il parle sur des vidéos YouTube,
+ alors là, il y a tout un tas de boum, bam, bim.
+ Le son est très coupé.
+ C'est magnifique ce qui se passe.
+ C'est beau.
+ Mais ça foire complet.
+ Quasiment impossible de récupérer de la voix d'une vidéo YouTube de Squeezie.
+ Et après, le plus facile, c'est de récupérer les voix sur les live Twitch.
+ C'est pour ça qu'il y a tout un tas de streamers
+ qui se sont vus faire deepfaker leurs voix.
+ Parce qu'en fait, c'est ultra facile de récupérer des voix
+ de joueurs du Grenier, de Amine Mathieu, etc.
+ Et de leur faire chanter de la musique.
+ Parce qu'il y a tout un tas de live où en fait, ils n'ont pas de musique.
+ Ou très, très peu de musique de fond.
+ C'est que j'ai vu Terracid qui apparemment s'est fait démonétiser
+ « Il faut au moins un million d'argent frère, pour faire ça en live. »
+ Et donc, vous pouvez comprendre assez rapidement
+ pourquoi est-ce que Twitch, c'est vraiment une poule aux odeurs
+ pour avoir des données pour deepfaker tous ces streamers connus.
+ Et pour Squeezie, je me suis dit
+ « Allez, ça allait être facile avec ces live Twitch. »
+ Pas du tout !
+ Parce que le problème, c'est que Squeezie, Lucas,
+ il parle ultra loin du micro.
+ Il parle comme ça.
+ Il parle très, très loin.
+ Avec beaucoup d'écho.
+ Et du coup, vos données de sortie du modèle
+ vont être aussi bonnes que vos données d'entrée.
+ Donc si je mets des voix où il parle unique
+ comme ça, en fait, en sortie,
+ ça va être totalement catastrophique.
+ Donc j'ai fouillé, j'ai fouillé, j'ai fouillé, j'ai fouillé.
+ Et j'ai trouvé une vidéo où Squeezie a un peu rapproché son micro
+ pendant un live Twitch.
+ C'est quand il a présenté le GP Explorer.
+ « ...la safety car, avant que, comme vous l'avez vu l'année dernière,
+ juste à le dé... »
+ Et du coup, j'ai utilisé le son de sa présentation du GP Explorer
+ sur Twitch, où il n'y avait pas de musique de fond,
+ pour avoir des données disponibles pour l'intelligence artificielle.
+ Mais les données, elles n'étaient pas parfaites.
+ Donc juste avant ça, je les ai mis dans un logiciel
+ qui s'appelle Audio & Sensor.
+ Ils sont disponibles par Adobe sur leur site internet,
+ qui vous permet d'améliorer l'audio de n'importe quel fichier sonore.
+ Si vous avez de la reverb, un peu de difficulté avec le son,
+ parce qu'il y a beaucoup de bruit derrière, etc.
+ Ça fonctionne aussi sur l'intelligence artificielle, pour le coup.
+ « C'est cher le train. »
+ « Bah si vous n'avez pas les moyens pour le train, les gars,
+ venez en voiture, il y a zéro problème. »
+ « Je dis juste que ce serait cool qu'on arrive à remplir les TGV. »
+ « On a la chance d'avoir un circuit qui est desservi en TGV. »
+ « Si on peut remplir les TGV de ce jour-là... »
+ Donc une fois qu'on avait les trois données pour chacun de nos protagonistes,
+ il fallait les mettre dans un modèle d'intelligence artificielle.
+ Pour ça, on a tout un tas de méthodes.
+ Et c'est aussi la grande différence avec la vidéo précédente sur la voix d'Emmanuel Macron.
+ C'est qu'en l'espace de même pas un mois,
+ il y a beaucoup de nouveaux projets qui ont vu le jour,
+ notamment des projets plus rapides, de meilleure qualité.
+ C'est assez fou la vitesse à laquelle les chances vont,
+ mais au moins, ça nous simplifie la vie.
+ Alors en termes de projets, on en a pas mal, je vais vous montrer.
+ On a celui-là qui est ultra connu,
+ « SoftVC V-Syncing Voice Conversion Fork »
+ qui est disponible sur GitHub.
+ Et en fait, récemment, vous avez peut-être dû entendre
+ tout un tas de personnalités connues qui ont chanté.
+ En fait, c'est beaucoup, beaucoup ce projet-là
+ qui vous permet très facilement, en le renant sur un Google Collab,
+ donc il faut avoir du GPU, etc., bien sûr,
+ mais ça vous permet de faire passer les voix de vos protagonistes ici.
+ Par exemple, là, c'est les voix d'Hugo Décrypte.
+ Et vous allez entraîner le modèle et après, vous allez pouvoir l'utiliser.
+ Ici, directement, en mode un peu clic-bouton,
+ vous avez tout un tas d'autres projets aussi.
+ Ce que vous notez, c'est qu'il y en a beaucoup, beaucoup
+ qui nous viennent de Chine, du Japon et même de Corée.
+ C'est assez fou à quel point ils développent beaucoup la voice conversion là-bas.
+ Il y a pas mal d'outils, notamment pour faire des voix de manga, par exemple.
+ Il y en a d'autres aussi qui vous proposent même des interfaces directement
+ sur votre ordinateur, comme ça.
+ Bref, je vous mets tous ces liens dans la description.
+ Et maintenant qu'on a les données,
+ go entraîner les modèles pour chacune des personnes.
+ Et résultat, en 3-4 heures, j'avais des modèles qui étaient très, très cohérents,
+ qui avaient un bon timbre pour chacune de nos personnes.
+ Par exemple, on peut parfaitement utiliser ces modèles
+ pour faire chanter à Squeezie un petit morceau de Ayanakamura.
+ Pour ça, c'est assez simple.
+ On va récupérer un morceau de Ayanakamura a cappella, sans la musique.
+ On le met dans notre modèle d'IA.
+ On récupère un fichier de sortie où Squeezie chante du Ayanakamura.
+ On le met dans un petit logiciel qui s'appelle Melodyne,
+ qui va venir améliorer un peu les accords dans la musique.
+ Et après, on met un petit morceau de Ayanakamura,
+ on mixe le tout avec un instrumental d'Ayanakamura.
+ Et voilà le résultat.
+ Et petit bonus, ces modèles, vous pouvez parfaitement les utiliser.
+ Parlez en temps réel.
+ Là, quand je vous parle, j'ai la voix, par exemple, du Godecrypt.
+ Et du coup, j'ai un modèle d'IA de génération de voix par personne.
+ Mais le plus difficile va commencer,
+ parce que le plus difficile, ça va être de générer le visage.
+ Et pour vous raconter la deuxième étape,
+ je vais prendre la voix d'Emmanuel Macron, par exemple.
+ Française-Français, dans cette deuxième étape,
+ nous allons passer au Donny vidéo.
+ Et pendant des années, on a eu des approches de deepfake
+ qui consistaient à prendre le visage de quelqu'un
+ et à venir le remplacer sur le visage de quelqu'un d'autre.
+ Mais ça, ça a beaucoup de limitations.
+ La première limitation, c'est qu'il vous faut la même coupe de cheveux.
+ Alors, si, comme moi, vous perdez vos cheveux,
+ si vous voulez imiter la coupe de cheveux de Tom Cruise,
+ ça va être très difficile.
+ Parce qu'on ne peut pas faker les cheveux.
+ Il va vous falloir aussi la même teinture de peau, par exemple.
+ Il va vous falloir aussi ne pas avoir de barbe, pas de lunettes,
+ parce que c'est très difficile, en fait, de deepfaker le visage de quelqu'un
+ qui a des lunettes ou même une barbe.
+ D'ailleurs, c'est sûrement les protections les plus naturelles
+ contre les deepfakes.
+ Et ces approches, souvent, elles sont assez compliquées.
+ Même si, depuis 2018, 2019, on a remplacé les cheveux
+ sur des choses qui étaient à la base faites sur un projet open source
+ qui s'appelle Deepfacelab.
+ Aujourd'hui, on a des approches plus rapides,
+ comme ces projets d'intelligence artificielle open source
+ disponibles sur GitHub.
+ Parfois, les résultats ne sont pas ultra concluants, justement,
+ parce qu'il vous faut la même morphologie que la personne
+ que vous allez deepfaker, etc.
+ Et on n'habite pas tous à l'Élysée pour deepfaker Emmanuel Macron.
+ Mais du coup, il fallait une autre solution.
+ Et l'autre solution, c'est que, en fait, là, quand je vous parle,
+ comment vous voyez que je suis en train de vous parler ?
+ C'est parce qu'il n'y a qu'un seul truc qui bouge sur mon visage,
+ c'est ma bouche.
+ Du coup,
+ plutôt que de deepfaker le visage entier et même le fond et la morphologie,
+ etc.,
+ en fait, il suffisait juste de deepfaker la bouche.
+ Et pour ça, il y a des approches incroyables,
+ comme l'approche Wavetolip,
+ qui est un projet open source qui date d'il y a quelques années déjà,
+ où, en fait, on va venir générer un petit carré autour de la bouche
+ et on va venir modifier les lèvres, en fait, par rapport à un fichier audio,
+ par rapport à ce qui est dit ou ce qui est chanté, même.
+ Et donc, pour ça, il nous fallait des nouvelles données,
+ des données vidéo, des données sources de Emmanuel Macron,
+ Squeezie et Hugo Décrypte.
+ Alors, pour Emmanuel Macron,
+ toujours pareil, c'est ultra facile, les données de discours.
+ Pour Hugo Décrypte, c'est ultra facile,
+ parce qu'il a je ne sais pas combien de vidéos de lui sur sa chaîne YouTube
+ où il parle juste tout droit devant la caméra.
+ Et pour Squeezie, encore une fois, c'est difficile,
+ parce que Squeezie, quand il est en live Twitch,
+ il a le micro loin,
+ mais en plus de ça, il est de travers,
+ il a une casquette,
+ il ne regarde pas de la caméra.
+ Dans les vidéos YouTube, pareil,
+ c'est impossible de récupérer le visage de Lucas qui a une image fixe.
+ Et quand d'un coup, ça zoome et ça déclenche,
+ ça devient catastrophique.
+ Mais pareil que pour les données audio du GP Explorer,
+ j'ai trouvé une vidéo où Squeezie est face à un écran et où il parle.
+ C'est pendant un live sous un format d'interview.
+ Et en fait, on a une vidéo de Lucas qui parle face à la caméra.
+ Donc, maintenant qu'on a ces trois vidéos sources,
+ et bien en fait, il ne nous reste plus qu'à matcher les deux.
+ Et du coup, on obtient ce résultat-là.
+ Allez, juste avant que je vous montre cette vidéo,
+ elle m'a demandé vraiment beaucoup de travail.
+ Donc, si vous pouviez liker, commenter, partager et vous abonner à la chaîne,
+ vous êtes beaucoup à regarder.
+ Vous pouvez regarder les vidéos sans vous abonner et c'est gratuit pour l'instant.
+ Donc, n'hésitez pas à soutenir mon travail, s'il vous plaît.
+ Moi, ça me motive après pour vous proposer du contenu de toujours meilleure qualité.
+ Merci beaucoup.
+ Allez, je vous laisse regarder tout ça.
+ Pierre va vouloir développer des avions qui seraient moins polluants.
+ Et ce lundi, Emmanuel Macron a annoncé vouloir que la France allait rentrer en guerre avec la Russie.
+ Il va notamment faire un appel à tous les volontaires français
+ pour aller se battre sur la frontière avec l'Ukraine pour défendre les intérêts de la France.
+ À ce sentiment de déclassement,
+ d'abandon.
+ Ce matin, un nouveau pas a été franchi par le président Vladimir Poutine.
+ Il a notamment décidé d'armer des têtes nucléaires en guise de menace contre les sanctions
+ décidées par l'Europe et les États-Unis.
+ Et la France ne peut rester.
+ Ce rapport au youtubeur et tout.
+ Ouais, et ils sont devenus... Peut-être c'est parce qu'on a tous...
+ Dans la vidéo des fans d'Intelligent, il va vous montrer que vous ne devez plus rien croire.
+ Alors, ça nous donne des résultats intéressants, même s'il y a quelques petits problèmes.
+ Je vais vous montrer.
+ Alors déjà, en termes de points positifs, c'est que de loin,
+ on pourrait dire
+ que c'est vraiment Pouizy ou Hugo qui parle.
+ Je vous montre.
+ Voilà, ici, vous avez une qualité qui est assez différente,
+ mais au moins, la bouche bouge par rapport aux mots que je lui fais dire.
+ Mais par contre, quand on va commencer à se rapprocher,
+ on va voir en fait une délimitation là d'un rectangle qui va correspondre à la zone de génération.
+ Et cette zone de génération va rapidement être très très floue.
+ Et le fait que ça va être floue, ben ça nous pose un vrai problème.
+ Parce que, en fait, t'es pas suffisant.
+ Dans l'idéal, il faudrait réussir à générer une vraie bouche, quoi.
+ C'est-à-dire que quand quelqu'un parle,
+ on voit les dents de la personne, on voit la langue de la personne, etc.
+ Et c'est là où il y a une approche incroyable développée par Tencent
+ qui vous permet, en fait, à la base de faire de la restauration d'image.
+ C'est-à-dire que c'est utilisé pour prendre une photo qui est un peu pas très belle
+ et pouvoir la restaurer justement en une très belle photo de meilleure qualité.
+ Ça, c'est les comparaisons avec tous les différents modèles avant,
+ des concurrents, etc., des autres laboratoires.
+ On voit que lui, par exemple, il va inventer des images qui ont rien à voir.
+ On voit que celui de Tencent, il est assez rapide et assez efficace.
+ Du coup, le but, ça va être d'utiliser cet algorithme pour venir, en fait,
+ améliorer les images issues du Wave Tulip qui vont...
+ qui créent, en fait, des images pas très belles, assez floues, etc.
+ Le but, c'est qu'ils reconnaissent que quand il y a un visage, justement,
+ qui est flouté ou une bouche qui est floutée,
+ eh ben, il va venir reconstruire la bouche.
+ Bon, et après, j'ai juste besoin de lancer tout ça.
+ Et c'est bon, c'est parti.
+ Donc, je reviens d'ici quelques minutes.
+ Alors, quand on essaye, on va commencer à avoir des résultats assez intéressants.
+ Je vous montre une bouche générée sans le modèle de restauration d'image
+ et une bouche générée avec le modèle de restauration d'image.
+ Vous voyez que la différence, quand même, elle est bluffante.
+ On voit apparaître des dents, etc.
+ Donc, l'algorithme de génération d'image, on va venir le mettre
+ pour régénérer image par image la vidéo.
+ Après, on compile le tout et ça nous donne une vidéo
+ où, par exemple, un faux discours d'Emmanuel Macron.
+ La France ne peut rester l'aimant à croiser sans rien faire.
+ On a fait la décision de rédiger la France.
+ On a fait la décision de rédiger la France.
+ On a fait les sanctions décidées par l'Europe et les États-Unis.
+ Et la France ne peut rester libre à croiser sans rien faire.
+ C'est pourquoi j'ai engagé la France militairement.
+ Alors, ça peut être divertissant, parce que je peux faire chanter Emmanuel Macron,
+ parce que je peux faire chanter Squeezie,
+ parce que je peux m'amuser à générer du contenu qu'ils n'ont jamais dit
+ en restant dans un temps parodique, etc.
+ Mais vous voyez tout le danger.
+ Imaginez toutes les fausses preuves
+ qu'on pourrait créer pour, ben, pour ruiner l'avis de quelqu'un.
+ Donc là, on rentre dans un problème de justice.
+ Bien sûr, je vous rappelle que cette vidéo n'a pas pour but d'être un tuto pour vous,
+ pour vous apprendre à générer des fausses choses.
+ Moi, je m'inscris dans mon droit à la parodie, entre guillemets, à l'information,
+ pour vous expliquer ce qu'il est possible de faire,
+ pour justement éveiller votre esprit critique sur ces technologies.
+ Mais si vous vous amusez à faire dire n'importe quoi à ces youtubeurs, à Emmanuel Macron, etc.,
+ c'est illégal, comprenez-le.
+ Vous pouvez pas générer n'importe quoi.
+ Parce que le visage de quelqu'un, la voix de quelqu'un, ça reste une donnée personnelle.
+ Et d'ailleurs, ces algorithmes-là sont aussi utilisés, beaucoup, par l'industrie cinématographique.
+ Par exemple, il y a exactement la même approche que je viens de vous montrer,
+ qui a été utilisée dans un film pour modifier, justement, les mouvements de lèvres des actrices,
+ en fonction de la langue du film, pour l'adapter à différents pays.
+ Alors, bien sûr, les résultats que je vous montre sont pas parfaits,
+ ils sont pas excellents, il y a des problèmes, encore une fois.
+ Moi, sur cette chaîne, j'essaye toujours de vous montrer les débuts,
+ les balbutiements d'une technologie,
+ pour essayer de vous donner des outils, des petites réflexions,
+ pour la comprendre et surtout pour la critiquer,
+ parce qu'il faut bien éveiller notre esprit critique par rapport à tout ça.
+ En même pas un mois, on est passé d'une version 1 de la génération de voix à une version 2, déjà.
+ Donc, en moins de quelques mois, on va encore accélérer.
+ Et il faut vraiment qu'on soit conscient que ces technologies, elles sont plus réservées à quelques personnes.
+ Non, non, non !
+ Il y a n'importe qui, aujourd'hui, sur Twitter, vu que tous ces projets, ils sont en libre accès sur GitHub,
+ ils peuvent parfaitement les utiliser pour faire n'importe quoi.
+ Mais la vraie question, c'est est-ce qu'on pourrait vraiment manipuler des gens avec des vidéos comme ça, vous pensez ?
+ Bah, le meilleur exemple, c'est d'aller dans la rue et de tester.
+ Bon, pour vérifier si les gens allaient croire à ces deepfakes, voilà ce que j'ai fait.
+ J'ai fait un faux discours d'Emmanuel Macron qui a annoncé que les Français allaient tous toucher une prime de 1500 euros.
+ Je suis allé dans la rue, je me suis fait passer pour un créateur de contenu qui fait réagir les passants à du contenu d'actualité.
+ Pour pas trop éveiller les soupçons, au début, je leur ai juste posé la question comme si de rien n'était.
+ Et après, en me rendant compte qu'ils ne savaient pas qu'Emmanuel Macron avait fait cette annonce,
+ je leur propose de regarder la vidéo et de me dire ce qu'ils en pensent.
+ Depuis de nombreux mois, la France traverse une crise due à l'inflation qui galope dans la zone euro.
+ C'est pourquoi j'ai décidé, en coordination avec la première ministre, de verser une somme exceptionnelle de 1500 euros,
+ et ceci sans condition de ressources, à l'intégralité des Français directement déduits ou majorés sur leur fiche d'imposition.
+ Bah, moi, en tant qu'étudiant, je pense que du coup, c'est cool.
+ Bah, c'est du profit, c'est... voilà, c'est...
+ c'est le...
+ c'est le gouvernement.
+ Ça me paraît assez compliqué de... à moins de faire marcher la planche à billets, ça me paraît compliqué de... de faire ça à tout le monde.
+ T'as pensé quoi de la vidéo que tu viens de voir ?
+ Ça va ?
+ Il a l'air assez convaincant, assez sûr de lui, après...
+ On verra.
+ Qui va pas le faire ?
+ Et donc, vous voyez qu'absolument toutes les personnes y ont cru sans sourciller, ils sont tous allés dans des débats.
+ Tout le monde y a cru, jusqu'à ce que...
+ C'est pas vrai, c'est pas une vraie vidéo.
+ C'est pas une vraie vidéo ?
+ C'est pas une vraie vidéo.
+ Pourquoi ?
+ Je suis sûr que c'est un truc avec une IA ou quoi, non ?
+ Purée, c'est le seul qui a cramé, bravo, félicitations !
+ Et donc, à part cette personne, absolument tout le monde y a cru, donc ça fait 5 personnes sur 6 qui ont cru que c'était une vraie vidéo.
+ Il est temps de leur révéler la supercherie et de savoir ce qu'ils pensent un peu de tout ça.
+ Non, la vidéo que tu viens de voir, elle a été totalement fakée.
+ Ah, putain, c'est un truc fake.
+ C'est une intelligence artificielle.
+ Waouh.
+ Parce que la vidéo que tu viens de voir, en fait, c'est une vidéo totalement fake, faite par une intelligence artificielle.
+ Incroyable.
+ Plutôt... waouh.
+ Et ceci sans conscience de source.
+ Non, avec le mec qui fait les gestes et toi à côté, c'est incroyable.
+ C'est vrai parce que quand tu regardes la vidéo et que tu écoutes, le son est incroyable, tu vois vraiment... enfin, c'est sa voix, c'est lui, c'est vraiment fort.
+ Ah, correctement, avec la voix, je sais pas comment te dire, mais c'est très bien fait.
+ C'est énorme, c'est... franchement, c'est bien fait.
+ Et tu penses quoi de ça, justement, l'intelligence artificielle, comme ça, t'en as entendu parler un peu ?
+ Oui, oui, j'en ai entendu parler, c'est... moi, personnellement, je trouve que c'est dangereux.
+ Pour le futur, c'est dangereux, je trouve qu'il y aura beaucoup de choses qui seront fausses.
+ C'est bien, mais ça fait peur, quoi.
+ C'est vrai.
+ On sait pas s'il peut faire tout ça, on sait pas ce qu'il peut faire avec après, quoi.
+ Conclusion, le test est plutôt réussi.
+ Par contre, il y a un truc super intéressant de ces interviews micro-trottoirs, c'est qu'on constate que les gens connaissent l'intelligence artificielle,
+ c'est-à-dire, ils savent que ça existe, mais ils tombent quand même dedans.
+ C'est-à-dire qu'on a passé la première étape, où les gens entendent parler de ces technologies,
+ et maintenant, il faut passer à la deuxième étape, où on va aiguiser notre esprit critique,
+ et se demander, est-ce que c'est vraiment vrai ce que je suis en train de regarder ?
+ Bon, mission accomplie, on est parti.
+ Du début, de la récupération des données à un test dans la vraie vie, pour voir si ça marche.
+ J'espère que la vidéo vous a plu, elle m'a demandé beaucoup, beaucoup de travail,
+ donc si vous pouviez liker, commenter, partager, etc., ça serait magnifique pour soutenir mon travail.
+ Merci beaucoup.
+ Et surtout, merci d'avoir regardé jusqu'au bout.
+ Bye bye.
