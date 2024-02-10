@@ -1,0 +1,389 @@
+ Je vais vous présenter une entreprise créée par trois français, un ancien chercheur de DeepMind et deux qui étaient chez Meta.
+ Cette entreprise, qui n'existait pas il y a à peine huit mois, a eu le temps dans cet intervalle de faire trembler toute l'industrie de l'IA
+ en publiant des modèles alternatifs à ChatGPT qui explosent toute la concurrence, être valorisé à presque 2 milliards de dollars.
+ Le tout sans aucune communication, ni vidéo promotionnelle déceptive.
+ Rien.
+ Ce que fait cette boîte me hype tellement que je vais quasiment tous les jours sur Twitter exclusivement pour vérifier qu'ils n'ont pas fait des nouvelles annonces.
+ Et c'est véridique.
+ C'est vrai ?
+ Oui.
+ Laissez-moi vous expliquer à quel point nos petits français ont explosé le game et comment vous pourriez aussi en profiter.
+ Pour commencer, ce que je vous propose, c'est de regarder un tableau des meilleures intelligences artificielles qui sont concurrentes à ChatGPT.
+ Vous allez voir, il y a plein de trucs très intéressants dans ce tableau.
+ Par exemple, on dirait que ChatGPT régresse entre plusieurs versions.
+ Sinon, on peut voir qu'il y a aussi des scores qui sont incohérents, qui ne sont pas dans le bon ordre, c'est bizarre.
+ Et surtout, il y a ces petites lignes jaunes.
+ Open Hermès Mistral, Machin.
+ Mixtral Instruct.
+ Que des noms qui évoquent le vent finalement.
+ Elles ne payent pas de mine.
+ On dirait même comme ça qu'elles ne sont pas si bien classées.
+ Mais...
+ Ce serait passé à côté de la révolution.
+ Et je pèse mes mots qui se cachent derrière.
+ Déjà, il faut réaliser qu'il y a pas mal de manières de mesurer la performance d'un LLM.
+ Mais pour faire court, c'est pas simple.
+ Vraiment pas simple.
+ Il y a des benchmarks qui sont en gros des listes de questions qu'on peut poser à un LLM pour vérifier ses capacités.
+ Donc là, par exemple, petite question de philosophie.
+ Il faut remplacer avec le bon terme.
+ Le problème, c'est que c'est déjà arrivé que
+ des modèles cartonnent en théorie avec des scores de fous, mais en fait,
+ ne soient pas dingues.
+ Ça arrive assez régulièrement.
+ Par exemple, c'est potentiellement le cas des modèles de Google.
+ Genre Gemini.
+ On dirait qu'en fait, ils ont tout fait pour maximiser leur score de MMLU.
+ Donc qui est un benchmark très prisé et très regardé.
+ Sauf que apparemment, quand tu l'utilises, c'est dur d'expliquer pourquoi.
+ Mais tu sens que c'est quand même moins bon.
+ Que chat GPT 4 et ça peut parfois s'expliquer parce que l'intero a fuité en gros dans le dataset d'entraînement.
+ C'est comme si les réponses apparaissaient dans les centaines de gigas de texte que le modèle a appris.
+ Même si les benchmarks peuvent être intéressants, on n'a pas trouvé mieux actuellement que le feeling des humains pour savoir si un modèle est vraiment bon.
+ Et un des meilleurs benchmark du coup, c'est l'avis des gens.
+ Et surtout, est-ce que tel ou tel modèle est vraiment bon ?
+ Et surtout, est-ce que tel ou tel modèle est vraiment bon ?
+ Il est bien d'avoir une réponse différente de votre modèle et utiliser vraiment en entreprise ou pas.
+ Du coup, pour faire des classements, comment on fait ?
+ Et bien en fait, on peut faire un système de vote.
+ C'est comme aux échecs, on peut faire un ELO, donc un système de points pour comparer des réponses différentes de modèle.
+ Et en fait, on y revient à ce tableau.
+ C'est l'un des classements de ce type les plus connus.
+ Ce qu'on voit, Arena, ELO, en réalité, ça décrit toutes les batailles qui ont été effectuées sur une audience cible entre différentes classes.
+ Et en fait, on y revient à ce tableau.
+ C'est l'un des classements de ce type les plus connus.
+ C'est l'un des classements de ce type les plus connus.
+ Et là, il faut vous dire qu'on voit vraiment le top du top.
+ C'est-à-dire que cette liste continue en dessous à l'infini.
+ Même les petites lignes jaunes, on a l'impression qu'elles sont en bas.
+ Non, non, non, c'est vraiment le podium du podium des tout meilleurs modèles dispo là au moment où on tourne cette émission
+ qui ont été testées sur le site en question qui est très populaire.
+ On peut voir que pour l'instant, les tout meilleurs modèles en haut, ils sont tous propriétaires.
+ Donc, on reconnaît les GPT-4 que tout le monde connaît évidemment.
+ Ensuite, on peut voir Cloud d'Anthropik.
+ On n'en a pas beaucoup parlé, mais ça a été monté par d'anciens salariés de OpenAI.
+ Puis, quelques versions de GPT 3.5 qui, après des mises à jour successives, restent en fait toujours très compétitives actuellement.
+ Et plus bas, on aperçoit Google avec le Gemini Pro, leur nouveau modèle annoncé il y a deux semaines à peine.
+ Tout ça donc, c'est ce qui est propriétaire.
+ Ok ?
+ Après, pour ce qui nous intéresse le plus nous, il y a les modèles ouverts.
+ Ils sont en général plus petits.
+ On va expliquer ce que ça veut dire juste après.
+ Ils demandent donc moins de puissance de calcul.
+ On peut les télécharger gratuitement, les faire tourner en local et les réentraîner,
+ ce qui est un des trucs les plus intéressants, sur nos propres données pour les rendre vraiment très très très très très forts.
+ Et alors, jusqu'à il y a quelques semaines, il n'y avait en gros qu'une seule alternative.
+ Et c'est ça le point qui est sérieux.
+ A Tchad GPT et ses variations, dont on avait déjà parlé, c'est l'YAMA 2.
+ Plus précisément, des versions améliorées, donc fine-tunées de l'YAMA 2, le modèle de Facebook,
+ qui finissent d'optimiser au max du max le travail qu'a fait faire dans son modèle dit de fondation.
+ Mais, il y a deux mois exactement, il y a des petites lignes jaunes qui se sont ajoutées au tableau.
+ Ça s'est passé comment ?
+ Mistral, le compte Mistral, qui n'était suivi alors par quasiment personne,
+ a publié un tweet.
+ Pour ceux qui ne savent pas ce que c'est, c'est un lien magnet.
+ Donc c'est tout simplement un torrent qu'on peut télécharger avec, bah voilà, un bit torrent quoi,
+ comme on téléchargerait un film piraté ou alors plein d'autres trucs open source.
+ Il publie ça. Pas d'explication, rien.
+ Pas de contexte, pas de vidéo promo, pas de billet de bloc, rien.
+ Juste ce lien.
+ Et quand on clique dessus, on découvre un modèle à 7 milliards de paramètres.
+ Et là, il faut qu'on explique un truc très important parce que, je vous l'ai dit,
+ on peut avoir l'impression que ces lignes jaunes, elles sont en bas du classement.
+ Mais en fait, ça, c'est si tu ne prends pas en compte la taille des modèles.
+ C'est comme en boxe, il y a différentes catégories.
+ C'est-à-dire qu'il y a les poids lourds, il y a les moyens et il y a les poids légers.
+ Et en fait, ce n'est pas du tout la même chose de se battre avec des modèles qui font 200 milliards de paramètres
+ ou avec des modèles qui font 70 milliards ou 7 milliards.
+ Ce nombre de milliards décrit en fait la taille des poids.
+ C'est l'énorme fichier qui contient le réseau neuronal qui permet de faire les inférences,
+ donc de créer les messages, d'écrire sous vos yeux les tokens.
+ Et donc, plus un modèle est gros, plus il demande de la puissance de calcul,
+ d'avoir des serveurs gigantesques avec des cartes graphiques de Nvidia qui coûtent 25 000 euros pièce
+ qu'on cumule pour, à la fin, arriver à héberger des modèles qui vont faire du coup 100 gigas par exemple ou 200 gigas.
+ Souvent, on ne sait pas exactement en plus quelle est la taille des modèles
+ propriétaires.
+ À une époque, on pensait que les GPT-3 et compagnie faisaient à peu près 130 milliards de paramètres, si je ne dis pas de bêtises.
+ GPT-4, c'est sûr que c'est énorme.
+ Autant dire que héberger sur ça vous-même, sur un de vos appareils, c'est mort.
+ Dites-vous que c'est juste mort.
+ C'est pour ça que sont apparus des modèles plus petits.
+ Par exemple, l'YAMA, quand ils ont sorti leurs modèles, ils les ont sortis souvent en trois versions, voire quatre.
+ Il y a le plus gros.
+ Il fait 70 milliards de paramètres.
+ Ça, pour vous donner un ordre d'idée, c'est le plus proche de ce qu'on a qui ressemble à une taille de modèle d'OpenAI ou d'Anthropic.
+ Et ça, pour le faire tourner, il faut en gros minimum deux cadres graphiques des 4080 Ti.
+ Actuellement, c'était un des moyens d'avoir des modèles quasiment équivalents à un GPT-3.5.
+ Donc, c'était déjà cool.
+ Ils ont sorti également des modèles de 30 milliards de paramètres.
+ De 13 milliards de paramètres.
+ Et de 7 milliards de paramètres.
+ Et vous pouvez vous dire à quoi ça sert.
+ Pourquoi ils ne mettent pas plutôt toute leur énergie, tout leur argent à entraîner un unique modèle qui soit plus fort que tous les autres ?
+ En gros, ça a un intérêt parce que différents modèles, différentes tailles de modèles, sont utiles pour différents trucs.
+ Tu peux avoir besoin d'un très gros modèle et donc d'une très bonne compréhension, d'une très grande culture générale pour effectuer certaines actions
+ en faisant des compromis sur le coût par mot, le coût par token.
+ Et le fait d'avoir des très gros modèles.
+ Des très grosses infrastructures.
+ Mais parfois, tu peux avoir des besoins plus restreints que tu es prêt à échanger contre des performances.
+ Donc, par exemple, si tu veux te faire tourner un modèle sur ton Mac mini qui a 16 gigas de RAM,
+ tu es très content qu'il y ait des modèles 13 milliards ou 7 milliards.
+ Mais pendant très longtemps, avec un modèle de 7 milliards de paramètres, tu ne faisais quasiment rien.
+ Pour faire des résumés, ça peut marcher un petit peu.
+ Ou pour essayer de trouver des synonymes à un mot.
+ Des choses qui jouent avec le langage, mais à un bas niveau.
+ C'est un élève de CM2, tu peux dire ça.
+ Mistral.
+ C'est un modèle de 7 milliards de paramètres.
+ C'est le plus petit qu'on voit être publié.
+ Il est dans le top 10.
+ Sauf qu'en fait, il est complètement dingue.
+ Quand ils l'ont sorti, les gens croyaient à moitié.
+ On pensait qu'il y avait des bugs quand on voyait les benchmarks.
+ On s'est dit non, mais ce n'est pas possible.
+ Ce que je vous expliquais, ils l'ont entraîné sur des benchmarks.
+ Ça n'a pas de sens.
+ On ne devrait pas pouvoir obtenir ce genre de résultat
+ avec un modèle qui tient dans un fichier.
+ Ça n'a pas de sens.
+ Mais en fait, si.
+ Leur modèle de 7 milliards, surtout quand il a été fonctionné,
+ c'est un peu les noms, les versions, les open Hermès,
+ tout ça que vous voyez dans le tableau.
+ Ce sont des versions améliorées par la communauté
+ qui ont poussé ce modèle à un niveau où
+ il explose évidemment tous les 13 milliards,
+ mais également les meilleurs modèles en 70 milliards de paramètres.
+ C'est-à-dire qu'actuellement, la meilleure déclinaison de Mistral,
+ en 7 milliards de paramètres, c'est Sterling LM7B Alpha.
+ Elle explose des GPT 3.5 Turbo,
+ des PPLX 70 milliards,
+ donc 70B ça veut dire 70 milliards.
+ C'est la ligne Sterling qu'il faut regarder.
+ Exactement.
+ L'IAMA2 70 milliards.
+ Je ne sais pas si vous vous rendez compte.
+ La prouesse que c'est.
+ Et c'est ça qui a expliqué qu'il y a deux mois,
+ il y a eu une sorte de raz-de-marée
+ où tout le monde s'est mis à jouer avec ce lien magnète,
+ à le télécharger, à le fin-tuner, à essayer de l'améliorer
+ et à voir où est-ce qu'on pouvait le pousser au maximum du maximum.
+ Il y a quand même une petite subtilité à capter,
+ c'est que ça reste un modèle petit.
+ Et donc, tu peux avoir des réponses ultra qualitatives,
+ mais on pense que typiquement au niveau de la quantité d'informations,
+ d'Internet qu'il a pu stocker dans sa mémoire,
+ on pense qu'il va être peut-être un peu plus limité dans certains cas.
+ Il peut avoir un risque d'halluciner un peu plus souvent,
+ d'inventer des trucs qui ne sont pas dans son dataset.
+ C'est peut-être une toute petite nuance qu'on peut donner
+ au fait d'avoir un modèle de 7 milliards.
+ Mais à part ça, ça veut dire que ce truc-là,
+ vous pouvez le faire tourner sur certains iPhones
+ ou de manière plus réaliste sur votre Mac sans aucun problème.
+ Ça va tourner à la vitesse de l'éclair,
+ parce que c'est vraiment tout petit,
+ donc c'est bien plus rapide que vous ne pourriez le lire.
+ Ça veut dire que des développeurs même d'applications
+ peuvent maintenant l'intégrer en back-end,
+ en local complètement, sans avoir la moindre connexion Internet,
+ avoir un quasi GPT 3.5.
+ Vous avez vu que pour l'instant, je n'ai pas parlé d'une petite ligne.
+ Il en manque une là.
+ Ça a à peine 10 jours.
+ Et c'est une autre forme de révolution.
+ C'est-à-dire qu'ils publient simplement un nouveau magnet.
+ Et alors là, c'est Noël, tu vois, donc tu ouvres le magnet
+ et tu regardes ce qu'il y a dedans.
+ Là, il y a un modèle qui s'appelle Mixtral 7B x 8.
+ Ce qu'ils ont sorti, c'est un modèle dit de MOE.
+ Donc ça veut dire Mixture of Experts.
+ Donc un mélange d'experts.
+ Ce que tu fais, c'est que tu entraînes différents modèles,
+ mais qui vont se spécialiser dans des domaines différents.
+ Pour faire simplifier et schématique,
+ c'est un peu comme si tu entraînais un modèle à être super bon en maths,
+ un autre à être super bon en code,
+ un autre à être super bon en littérature et en philosophie.
+ Dans les faits, c'est quand même beaucoup plus compliqué que ça.
+ Mais ce que ça permet de faire concrètement,
+ c'est d'entraîner un modèle avec différentes branches.
+ Et en gros, c'est comme un cerbère à huit têtes,
+ mais où lors de la génération,
+ donc pour chaque nouveau token généré,
+ il y a seulement deux de ces têtes qui sont utilisées.
+ C'est probablement, on est quasiment sûrs,
+ que OpenAI a utilisé cette architecture sur GPT-4.
+ Et c'est comme ça qu'ils ont réussi à atteindre ce niveau.
+ Là où c'est intéressant, c'est que, en gros, pour simplifier,
+ tu bénéficies de la taille d'un modèle qui fait 8 x 7
+ sans en payer le coût au niveau du hardware.
+ Donc pour le coût d'un 7 plus 7,
+ donc pour le coût de 14 milliards de paramètres,
+ tu bénéficies en quelque sorte de 8 x 7.
+ En fait, il est juste plus gros en taille,
+ mais il ne nécessite pas plus de puissance de calcul, c'est ça ?
+ Exactement.
+ En gros, on peut considérer qu'il est à peu près du niveau de GPT 3.5,
+ peut-être même un peu au-dessus dans les tests.
+ Mais ce n'est pas ça le plus fou.
+ Le plus fou, c'est que tu peux le faire tourner littéralement en local
+ sur un Mac M3 Ultra qui a 64 gigas de RAM.
+ C'est fou.
+ C'est la première fois de l'histoire que c'est possible.
+ Et le deuxième truc de fou, c'est le niveau de performance.
+ Parce que pour l'instant, on a juste parlé de l'intelligence,
+ mais ce n'est pas la seule chose qui compte.
+ Il y a la vitesse des tokens aussi qui importe.
+ La rapidité de réponse.
+ Exactement. À quel point tu vas vite à répondre.
+ Et eux, non seulement leur modèle est gigasmart,
+ mais surtout, il peut répondre à énormément d'utilisateurs en même temps.
+ Donc en gros, ça veut dire que sur ton Mac qui a 64 gigas de RAM,
+ tu peux débiter du token comme jamais.
+ Et pour faire le parallèle plus réaliste,
+ tu es une entreprise et tu veux déployer ta propre version de Mistral.
+ Et j'ai discuté avec pas mal de boîtes qui sont totalement en train de faire ça actuellement.
+ C'est en train de prendre Mistral, de les fonctionner sur leur version
+ et de déployer ça sur leur serveur.
+ Pour ces entreprises-là, ça va coûter beaucoup, beaucoup moins cher
+ que ça ne coûte à OpenAI de faire la même chose.
+ Pour faire très, très court.
+ Je pense que vous réalisez du coup que ma hype n'est pas déplacée.
+ Surtout que pour l'instant, je vous ai parlé de deux petites révolutions.
+ Il y en a probablement encore à venir en réalité.
+ Et comment on le sait ?
+ C'est parce qu'ils ont annoncé récemment leur cloud,
+ donc leur version hébergée de leur modèle qui s'appelle la plateforme.
+ J'y ai eu accès et c'est en gros une version de l'API d'OpenAI.
+ Il y a même une rétrocompatibilité.
+ C'est-à-dire que si tu as développé un service pour OpenAI,
+ c'est les mêmes endpoints, tout marche pareil.
+ Tu as juste à changer l'UI.
+ Tu as juste à changer l'URL et tout va bien.
+ Et du coup, sur cette plateforme, qu'est-ce qu'on a découvert ?
+ Il y a effectivement les deux modèles qu'ils ont déjà publiés.
+ Mistral Tiny, je crois.
+ Mistral Small.
+ Le Mistral Small, pour eux, c'est la petite ligne jaune tout en haut.
+ Ok.
+ Mais il y a un troisième modèle, Mistral Medium, qui est en alpha.
+ Celui-là n'a pas été encore publié.
+ Ce n'est pas exactement d'ailleurs ce qu'ils vont faire.
+ Mais ce Mistral Medium,
+ tu peux déjà essayer les inférences dessus.
+ Donc, il y a accès via une API.
+ Exactement.
+ Et en gros, ça promet.
+ Ça promet d'être encore un sacré morceau.
+ Il est probablement encore plus gros.
+ Et au niveau du coût, il est bien plus accessible qu'un GPT-4.
+ On pense en fait qu'il se situe entre les deux.
+ C'est-à-dire que ce n'est probablement pas encore exactement l'équivalent d'un GPT-4,
+ mais que ça va te coûter beaucoup, beaucoup moins cher à l'inférence,
+ ce qui est leur spécialité.
+ Et rapidement après la découverte de ce Mistral Medium,
+ il y a pas mal de gens qui ont commencé à faire des trades Twitter
+ où ils font des comparaisons sur des sujets hyper précis
+ entre GPT-4 et Mistral Medium.
+ Parce qu'un truc à préciser, c'est que le GPT-4 qu'on voit tout en haut,
+ c'est les versions de l'API.
+ Il y a pas mal de gens qui commencent à constater que les versions publiques
+ de OpenAI, de ChatGPT, deviennent de plus en plus débiles.
+ Ils essayent des trucs qui marchaient il y a encore six mois, un an.
+ Leur demander de générer des scripts et des trucs comme ça.
+ Ou à une époque où ça marchait bien.
+ Ils réessaient aujourd'hui, ça marche beaucoup moins bien.
+ Ce qui se produit souvent, c'est que pour rendre l'IA safe,
+ pour éviter qu'elle vienne titiller la sensibilité de quiconque,
+ Politiquement correcte.
+ Exactement.
+ On a besoin de les contraindre pour qu'elle réponde
+ « Je suis une IA, je ne peux pas faire de mal » ou des trucs comme ça.
+ À chaque fois qu'on contraint un modèle à être safe,
+ on le rend moins performant.
+ C'est une constante.
+ C'est-à-dire qu'on l'observe absolument partout.
+ L'un et l'autre sont un trade-off.
+ C'est toujours une balance.
+ Du coup, un exemple frappant que j'ai vu,
+ c'est par exemple un exercice de codage en Python.
+ La demande qui a été formulée à Mixtral d'un côté et à GPT-4,
+ c'était écrire un script qui peut rentrer un fichier CSV complet
+ qui fait un milliard de lignes dans une base de données SQL.
+ Pas besoin de comprendre vraiment l'énoncé.
+ Dites-vous juste que c'est un problème de programmation non trivial.
+ En gros, c'est un bon moyen de vérifier si vous avez en face de vous
+ un élève de 3e ou un PhD.
+ Parce que la bonne réponse, en fait,
+ c'est que tu ne peux pas simplement faire une boucle
+ sur l'ensemble des entrées du CSV
+ et les rentrées dans une base de données.
+ Il n'y a aucun système.
+ Tu n'as pas besoin de contexte supplémentaire
+ pour savoir que c'est juste impossible.
+ Il te faut une manière d'approcher le problème plus intelligente.
+ Tu fonctionnes avec des batchs.
+ Tu fais attention à la gestion de ta mémoire vive, des choses comme ça.
+ Et il fait la démonstration et montre que d'un côté,
+ dans l'interface de ChatGPT,
+ dans la version 4,
+ qu'il est complètement à côté de la plaque,
+ qu'il bullshite des trucs qui ne servent absolument à rien.
+ Il passe son temps à te dire
+ « Non, mais ça, implémente-le toi-même. Commentaire. »
+ Bon, ça, c'est quand même un peu trop compliqué, cette boucle.
+ Donc, ça demanderait beaucoup plus d'investigation.
+ Tu vois, pas hyper pertinent.
+ Tu as besoin de lui reposer des questions en mode
+ « Non, non, mais vraiment, donne-moi le script complet
+ qui répond à l'énoncé. »
+ Et là, il finit par y arriver.
+ Preuve qu'il n'est pas con, juste qu'il est devenu paresseux.
+ La même demande posée à Mistral Medium.
+ Et il te pond une réponse, mais...
+ Oh !
+ C'est du caviar.
+ Il n'y a pas un token en trop.
+ Il ne commence pas à te raconter sa vie, etc.
+ C'est to the point.
+ Ça te donne du code qui n'est pas exactement forcément complet,
+ mais où tu as déjà des briques intéressantes,
+ à savoir un système de batching.
+ En gros, il a une profondeur, une compréhension dans l'énoncé.
+ Et à la fin, il te donne des recommandations pour aller plus loin.
+ Et là, c'est actionnable.
+ Tu as des trucs très, très précis qui sont évoqués,
+ des services, des fonctions dans Python que tu pourrais utiliser, etc.
+ Et alors, c'est un exemple.
+ C'est-à-dire que tu peux faire des choses
+ que tu ne veux pas faire.
+ Ça ne vaut rien.
+ Ce n'est pas une étude approfondie.
+ Mais moi, j'ai trouvé ça quand même frappant de se dire,
+ au moment même où on a l'impression que JPT4 est en train de se prendre
+ les pieds dans le tapis et de devenir pas ouf,
+ au même moment, tu vois une courbe comme ça sur la performance
+ et les capacités de Mistral.
+ Tout ça pour dire merci, Mistral, d'avoir créé cette boîte.
+ Merci à eux.
+ Ils sont juste trop forts.
+ Suivez-les, s'il vous plaît.
+ Et franchement, je vais dire, c'est le genre de boîte
+ qui me rend fier d'être là.
+ Voilà.
+ C'est tout simplement fou.
+ Évidemment, ces nouveautés sont très réjouissantes,
+ mais j'aimerais amener un petit bémol.
+ Toutes ces IA sont de plus en plus utilisées
+ pour les connecter à des plugins,
+ soit pour se balader sur Internet ou se connecter à vos mails,
+ vos documents, etc.
+ Le truc, c'est que beaucoup de gens ne réalisent pas
+ qu'il y a une vulnérabilité, une faille de sécurité
+ intrinsèque aux modèles de langage.
+ C'est assez flippant et très peu abordé.
+ Et vous pouvez voir une démonstration pour vous faire un avis
+ dans cette vidéo.
+ Sous-titrage Société Radio-Canada

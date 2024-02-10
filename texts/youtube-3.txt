@@ -1,0 +1,364 @@
+ Il semblerait que ChatGPT, en particulier GPT-4, soit en train de devenir débile.
+ Même plus précisément que ça, soit en train de devenir paresseux.
+ Si vous regardez ce leaderboard, qui montre les plus gros modèles,
+ donc les propriétaires sont tout en haut évidemment,
+ parce que pour l'instant ils ont quand même un avantage sur les modèles open source,
+ mais on peut voir tout en bas qu'il y a i34b, Tulu,
+ il y a quand même, ça commence à se défendre, Mixtral qui est un peu plus haut.
+ Mais si vous regardez les tout tout meilleurs,
+ est-ce que vous observez quelque chose d'un peu étrange ?
+ Il y a plusieurs versions de GPT-4.
+ Alors oui, pourquoi ?
+ Non mais c'est pas grave.
+ Pourquoi en fait elles correspondent à différentes versions à un temps donné ?
+ C'est-à-dire que GPT-4-03-14, c'est la version qui date de mars 2023.
+ GPT-06, c'est la version qui date de juin 2023.
+ Et donc on peut voir déjà la première chose,
+ c'est qu'elles ne sont pas ordonnées par ordre chronologique.
+ Oui, tout à fait.
+ Et après sur ceux de Claude ?
+ Ah oui, maintenant ça me saute aussi.
+ Claude 2 est en dessous de Claude 1.
+ Non, Claude 2 est en dessous de Claude 1.
+ Et Claude 2.1.
+ Et Claude 2.1 est en dessous des deux autres.
+ Ça veut dire que les gens ont en moyenne trouvé des modèles propriétaires récents
+ comme étant moins qualitatifs que des anciens.
+ Je ne sais pas si vous vous rendez compte de ce que ça veut dire quand même.
+ C'est-à-dire que tu as des équipes qui ont des millions de dollars de financement,
+ des centaines de personnes qui bossent sur des modèles.
+ Ils passent des mois et des mois à créer des nouvelles versions
+ qui sont moins bien notées que des trucs sortis il y a un an et demi.
+ Qu'est-ce qui expliquerait ?
+ Ça.
+ Mais juste avant, laissez-moi vous montrer un exemple très concret et utile
+ de comment l'IA peut vous aider dans votre quotidien avec Hostinger, notre sponsor du jour.
+ Sur leur site, ils ont une fonction de builder de sites web assisté par IA.
+ Le contenu est généré sur mesure, optimisé pour le référencement
+ et des images sont sélectionnées pour vous.
+ Ce qui vous donne une très bonne base pour ensuite peaufiner le site selon vos goûts.
+ C'est franchement assez marrant à essayer
+ et vous pouvez après héberger le site sur leur interface intuitive.
+ Quand vous souscrivez, vous avez aussi un nom de domaine offert,
+ du support 24h sur 24
+ pour les serveurs NVME en France.
+ Jusqu'au 12 février, ils ont des offres qui défient toute concurrence
+ sur les plans premium et business.
+ Et avec le code UNDERSCORE, vous gagnez encore 10% sur les plans de 12 mois et plus.
+ Le lien pour voir tout ça est en description.
+ Ce n'est pas tellement une question de devenir stupide,
+ c'est-à-dire de ne plus arriver à résoudre des tâches,
+ mais c'est de manière générale une question de comportement.
+ C'est-à-dire que là où il y a peut-être six mois, un an,
+ on pouvait lui demander de lui rédiger un script complet.
+ Je vais prendre un exemple avec le développement parce que c'est
+ assez parlant.
+ Moi, je me souviens à l'époque, j'étais en train d'apprendre Swift
+ et je lui demandais de faire des tâches vraiment très complexes
+ sur le GPU du Mac et il me pondait des scripts en Swift,
+ il me générait des shaders.
+ Et il semblerait qu'on soit passé de ça à actuellement,
+ ou si on regarde dans quelques exemples,
+ on voit qu'il est constamment en train de nous demander de faire le travail.
+ J'ai remarqué ça un peu.
+ J'ai un peu la flemme.
+ Tu lui demandes de faire un code avant et tu le faisais,
+ maintenant.
+ Il t'explique comment tu peux y arriver, il te met des petits extraits,
+ mais c'est à toi d'assembler le truc.
+ Exactement.
+ Il y a des gens qui ont fait des tests entre un GPT-4, par exemple,
+ et d'autres modèles, typiquement des modèles open source.
+ Moi, j'en ai vu notamment avec Mixtral, les tout derniers modèles open source
+ qui rivalisent de qualité avec GPT 3.5, etc.
+ Il est censé y avoir quand même un gap d'intelligence,
+ mais quand tu regardais du point de vue de la paresse,
+ effectivement, la distinction était frappante.
+ Ce n'est pas un problème qu'on ne peut pas résoudre.
+ Il suffit de le reprompter, de lui demander.
+ Non, non, mais j'aimerais bien le code
+ en entier.
+ Non, mais implémente-t-elle ou telle partie toi-même et tu finis par y arriver.
+ C'est comme s'il avait un désir de raccourcir ses réponses
+ pour être dans un mode plus conversationnel.
+ Et à la fin des fins, tu finis par obtenir ce que tu veux.
+ Peut-être que les versions actuelles de GPT-4 ont été plutôt guidées
+ pour suivre mieux les promptes systèmes.
+ On pourrait s'imaginer qu'une piste d'explication qui serait qu'un modèle
+ qui est super efficace à suivre des instructions précises,
+ c'est objectif.
+ Effectivement, très utile.
+ Mais si ça se trouve, on est un peu perdu au change, en gros, dans leur autonomie
+ et leur capacité à se débrouiller, à faire des très longues générations
+ valides avec un petit prompt.
+ Donc ça, c'est la première piste.
+ Ce qui n'est pas une mauvaise nouvelle parce que du coup, peut-être qu'on peut
+ compenser légèrement en essayant d'être un peu plus précis dans ce qu'on lui demande.
+ Si jamais c'est véridique, une piste de solution, c'est effectivement
+ de se créer des promptes systèmes qui vont guider la manière dont on
+ veut
+ que notre assistant se comporte.
+ Donc effectivement, je vois pas mal se partager sur Twitter.
+ Si vous en avez, d'ailleurs, n'hésitez pas à nous les partager aussi.
+ Mais des promptes systèmes de gens qui disent OK, la manière dont tu t'exprimes
+ ne me plaît pas et donc moi-même, je vais devoir écrire à la main.
+ Tu dois t'exprimer de manière détaillée.
+ Cut the crap.
+ Arrête de me raconter de la merde.
+ Je veux du code en entier.
+ Et donc, c'est effectivement un moyen de contourner le souci.
+ Surtout que les gens se sont rendus compte que suivant l'intermédiaire qu'ils utilisaient avec les serveurs,
+ que les serveurs utilisaient avec les serveurs,
+ ça se comportait pas forcément de la même chose.
+ Il y a des gens qui ont essayé sur l'ordi, sur la version ordi de ChatGPT versus la version mobile
+ et ils ont pas du tout obtenu les mêmes résultats.
+ Si vous ne le saviez pas, en fait, la version mobile de ChatGPT a un prompt système différent.
+ Ce qu'il y a en haut du chat qu'on ne voit pas est modifié suivant le device qu'on utilise.
+ Et en gros, sur l'appli ChatGPT, il semblerait que OpenAI ait demandé volontairement à GPT-4
+ de faire des réponses plus courtes.
+ Et j'imagine que la réponse est la même.
+ La réflexion, c'est que les gens sont sur mobile et donc ils veulent de l'info plus dense.
+ Oui, puis l'info peut-être rapide, justement.
+ Oui, c'est bête, mais t'as pas envie de se courler pendant 10 ans sur ton téléphone.
+ C'est clair.
+ Je pense qu'une autre explication qui est valide, c'est une histoire de coûts,
+ notamment sur les versions mobiles d'OpenAI.
+ Je ne sais pas si vous avez vu, mais il y a des modèles de discussion.
+ Donc en fait, ils ont intégré Whisper pour comprendre les instructions vocales
+ et leur nouveau modèle de génération de texte, de texte to speech,
+ c'est très probable que tout ça leur coûte assez cher, même de rien,
+ et que du coup, réduire l'output, réduire la taille des messages générés par ChatGPT,
+ ça leur fait économiser de la génération vocale, en fait.
+ Mais en fait, il est possible que même au niveau de la qualité,
+ c'est-à-dire que même au niveau du modèle, c'est-à-dire le fichier qui tourne sur le serveur d'OpenAI,
+ il est possible qu'il y ait des drops en qualité.
+ Qu'est-ce qui expliquerait ça ?
+ C'est juste un constat.
+ Je me dis qu'est-ce qui a changé entre ChatGPT il y a un an,
+ et ChatGPT maintenant ?
+ Et je me dis, en fait, il se nourrit des retours qu'on lui fait de nous.
+ Si ça se trouve, c'est juste nous, on est trop mauvais pour interagir avec ChatGPT,
+ et en fait, il était un peu pur à sa sortie, et du coup, en fait, il était vachement efficace,
+ et il est devenu influencé par l'humain, et du coup, c'est devenu une merde humaine.
+ Alors non mais, écoute-moi bien, ça, c'est une des théories les plus solides,
+ qui sont avancées par les gens.
+ Je suis refaite.
+ Je pourrais expliquer ça.
+ Je vais revenir dessus.
+ En gros, il y a...
+ Il y a trois grandes théories qui pourraient expliquer ça.
+ Donc la première, c'est celle dont tu as parlé.
+ À savoir, si vous avez remarqué, sur l'interface de ChatGPT,
+ une fois sur vingt à peu près,
+ on va vous demander de noter la réponse d'OpenAI.
+ Effectivement, il y a de bonnes chances que ces données-là soient utilisées
+ à des fins d'entraînement pour améliorer, pour rapprocher l'IA théoriquement
+ de ce que l'humain, l'utilisateur final voudrait.
+ Ça serait logique qu'il le fasse en tout cas.
+ Ce serait logique.
+ Ça paraît comme une excellente idée.
+ Mais effectivement, il y a pas mal de gens qui disent que si ça se trouve,
+ ça a participé à le baisser, à lui faire baisser sa qualité.
+ Puisque nous, humains, on serait des mauvais profs, en fait.
+ On ne serait pas en mesure d'identifier objectivement
+ quelles sont les réponses les plus informatives, les plus utiles.
+ Et donc, ces sélections-là ont petit à petit fait dévier ChatGPT
+ de son intelligence originelle, on va dire, pour arriver à ça aujourd'hui.
+ La deuxième possibilité, c'est la logique.
+ C'est la lobotomisation des modèles propriétaires.
+ Un truc que les gens savent, c'est que si on demande à ChatGPT
+ de faire des trucs illégaux, mais pas que illégaux justement,
+ eh bien, il va vous dire je ne peux pas le faire car je suis un modèle d'IA responsable.
+ Il est devenu très puritain, enfin, je ne sais pas si c'est le mot pour IA.
+ Si, si, je pense que c'est un bon mot, effectivement.
+ Et ceci existait dès le début, c'est-à-dire que c'est ce qu'on appelle le RLHF,
+ donc « reinforcement » par « human feedback »,
+ donc du réenforcement d'apprentissage.
+ Et c'est la technique qui a un peu débloqué les modèles de langage.
+ Donc, il ne faut pas cracher dessus parce que c'est vraiment le truc qui a permis à ChatGPT 3.5
+ notamment d'avoir une montée en gamme aussi importante entre la GPT 3 et la version GPT 3.5.
+ Sur les premières versions de ChatGPT, il y avait déjà un système de feedback humain
+ qui lui faisait refuser certaines requêtes, etc.
+ Mais ce qui est probable, la théorie qui a été émise,
+ et qui se vérifie honnêtement assez facilement,
+ c'est que petit à petit, à chaque fois que globalement quelqu'un arrivait à demander à ChatGPT
+ à lui faire générer un output qui ne lui plaisait pas,
+ probablement qu'il allait gueuler quelque part sur Twitter ou quelque chose comme ça,
+ et que OpenAI, petit à petit, a dû mettre de plus en plus à jour
+ son système de renforcement par feedback humain pour intégrer chaque petite gueulante,
+ faite par chaque personne qui n'était pas contente.
+ Petit à petit, ils ont dû rajouter des garde-fous et des garde-fous dans leur modèle de filtrage.
+ Et que ça a participé lentement mais sûrement à une lobotomisation d'une certaine manière du modèle.
+ Mais il y a une autre explication qui est même encore plus séduisante et plausible de mon point de vue,
+ qui est que le problème qu'a OpenAI actuellement,
+ que n'ont pas tous les modèles open source qui cartonnent et qui marchent super bien,
+ c'est qu'ils ont beaucoup d'utilisateurs, qu'ils ont eu très rapidement.
+ Alors on sait qu'ils ont énormément de fonds de Microsoft,
+ mais de manière générale, on sait qu'un des gros problèmes d'OpenAI, c'est d'être rentable
+ et c'est d'arriver à financer le coût hardware monumental que représentent ces fermes de GPU
+ qui servent ChatGPT 3 et 4 à la planète entière.
+ Une des bonnes raisons qu'on a de croire que c'est très très cher de faire ça,
+ c'est que depuis un an et demi, il n'y a pas eu beaucoup d'autres GPT-4 mine de rien.
+ La théorie comme quoi GPT-4 coûte un putain de bras à faire tourner
+ et que OpenAI serait complètement à perte, mais genre bien encore plus que l'on s'imaginerait,
+ est plausible.
+ Ce n'est pas impossible que ce soit vraiment très très très cher.
+ Et du coup, qu'est-ce que tu fais quand tu as un produit qui est extrêmement coûteux,
+ utilisé par des millions et des millions de gens avec des pics grands comme ça ?
+ C'est que tu cherches les solutions que tu as à ta disposition,
+ pour baisser le coût de tes inférences.
+ Donc en gros, pour faire en sorte que ton ordinateur ait besoin de moins de puissance de calcul
+ pour générer un certain nombre de tokens et répondre à ton chat.
+ Parce que la problématique, c'est toujours de maximiser combien d'utilisateurs en simultané
+ vont pouvoir interroger GPT-4 qui tournent sur une ferme de serveurs.
+ Et donc, actuellement, ce que tu peux faire pour augmenter les performances de ton serveur,
+ c'est utiliser du code plus efficient, des meilleurs modèles.
+ Actuellement, par exemple, la plupart des serveurs qui fournissent des chatbots,
+ ils utilisent VLLM.
+ C'est le projet par excellence qui permet de servir avec la meilleure efficacité possible beaucoup d'utilisateurs.
+ Une autre technique qui est possible, c'est de réduire la taille des modèles.
+ C'est-à-dire que tu prends ton modèle de base que tu as entraîné et tu vas réduire sa taille.
+ Alors tu pourrais te dire, non mais c'est con.
+ Genre si tu divises par deux la taille de GPT-4, par exemple, tu vas réduire la taille de GPT-4.
+ Alors tu pourrais te dire, non mais c'est con.
+ Si tu divises par deux la taille de GPT-4, par exemple, tu vas réduire la taille de GPT-4.
+ Si tu divises par deux la taille de GPT-4, par exemple,
+ j'imagine qu'il te deviendrait deux fois plus bête ou...
+ Enfin, intuitivement, on se dirait ça.
+ Mais en fait, pas du tout.
+ Parce que, faut s'imaginer que ces modèles-là, donc ces grandes matrices de nombres,
+ en fait, c'est des matrices de nombres flottants.
+ Faut se dire que ce sont des nombres à virgule,
+ où il y a vraiment beaucoup beaucoup beaucoup de virgules pour une très très grande précision.
+ La seule chose à comprendre, c'est que cette matrice de nombres,
+ si on veut diviser sa taille par deux,
+ on perd la taille de GPT-4.
+ On peut, par exemple, lui enlever de la précision.
+ Donc, au lieu que tes nombres à virgule,
+ isaient, genre, 32 chiffres après la virgule,
+ eh ben tu vas passer à 16, par exemple.
+ T'es pas en train de diviser par deux ton modèle, tu vois.
+ C'est pas ça.
+ C'est juste que tu réduis sa précision.
+ Et globalement, ce qu'on observe,
+ c'est que ça change quasiment pas ses performances.
+ Ce processus, on appelle ça de la quantisation.
+ C'est qu'en gros, si tu peux avoir un modèle de 32 milliards de paramètres,
+ peut-être que normalement, il devrait faire une trentaine de gigas, par exemple,
+ mais grâce à de la quantisation,
+ tu vas pouvoir réduire la précision de ses poids
+ et passer, par exemple, en FP16 ou en Q8.
+ C'est juste des nomenclatures qui ont été créées
+ pour décrire à quel point tu fais des concessions
+ sur la précision de tes poids.
+ Justement, l'impact est limité.
+ Y a pas un peu un côté théorie du chaos
+ ou un peu de manque de précision, plus simplement,
+ de précision, à la fin, ça s'accumule ?
+ Exactement.
+ En gros, à un moment, on pensait que c'était quand même assez limité,
+ mais en fait, c'est possible que ce soit quand même un trade-off.
+ Un trade-off qui serait pas catastrophique,
+ mais qui existerait quand même.
+ En fait, des gens ont fait des tests
+ sur le niveau de perplexité des modèles.
+ Sans rentrer dans le détail, c'est juste une manière de savoir
+ si un modèle est performant
+ et si jamais il sait prédire de manière correcte
+ la suite d'un texte.
+ Et ce qu'ont fait les gens, c'est qu'ils ont créé des courbes
+ pour comparer les différentes versions quantisées
+ pour savoir si, OK, si mon modèle qui fait 30 gigas,
+ je le passe en 24 gigas ou en 18 gigas ou en 15 gigas,
+ à quel point l'impact est sévère au niveau de la qualité.
+ Et en gros, ce qu'on observe, c'est que, typiquement,
+ si tu utilises une représentation sur 8 bits,
+ eh ben, t'es très très proche de la qualité originale.
+ Si tu passes en 4, pour le coup, ça va être largement dégradé.
+ Et à 2, ça va être bien pire que ça, etc.
+ Donc, on a une idée vague de l'impact de la quantisation
+ sur les performances.
+ Mais ce qui est à peu près certain, pour le coup,
+ c'est qu'au niveau de la performance,
+ t'as des gains qui sont vraiment incroyables.
+ C'est-à-dire qu'en nombre de tokens générés par seconde
+ et en quantité de mémoire nécessaire, c'est génial.
+ Toi, avec ton GPU, par exemple, si t'as une 4090
+ avec 24 Go de mémoire vive sur le GPU,
+ tu vas pouvoir faire tourner des modèles qui font 70 ou 34,
+ de manière plus réaliste, 34 milliards de paramètres
+ sans problème grâce à la quantisation.
+ Donc, en fait, c'est génial. C'est vraiment trop trop bien.
+ C'est bien mieux de prendre un gros modèle quantisé
+ Exactement.
+ Quantisé, je sais pas ce que ça se dit, mais qu'un plus petit modèle
+ avec moins de paramètres, mais qui n'est pas quantisé.
+ Exactement. C'est vraiment exactement ça.
+ Et dans tous les benchmarks, ça s'observe.
+ Dans les versions récentes de ChatGPT,
+ je sais qu'ils ont sorti GPT-4, Turbo, etc.
+ Est-ce que c'est ce genre d'optimisation qu'il y a derrière ?
+ Eh ben, le truc, c'est qu'on ne sait pas.
+ Dans les faits, personne ne sait de quelle manière
+ comment l'architecture, le back-end de OpenAI fonctionne
+ et qu'est-ce qu'ils ont fait avec leurs modèles, etc.
+ Mais c'est une théorie très solide que, effectivement,
+ les versions Turbo, les versions récentes, etc.,
+ pour pouvoir les déployer et les servir à énormément de gens,
+ ils passeraient peut-être par de la quantisation.
+ Alors, attention, ce n'est pas pour ça
+ que tu ne peux pas faire un modèle à la fois performant et précis.
+ Il y a des gens qui vont imaginer des stratégies
+ pour réduire la précision, par exemple, de certaines couches du modèle,
+ mais pas de toutes.
+ On ne va pas rentrer dans l'architecture de l'IAMA,
+ parce que c'est quand même un peu compliqué,
+ c'est l'histoire de Transformers et tout ça.
+ Mais en gros, tu peux avoir certains layers, certaines briques
+ que tu vas garder à leur précision,
+ certaines précisions complètes,
+ mais d'autres que tu vas quantiser et réduire en précision.
+ Et tout ça te permet de, globalement, avoir le meilleur des deux mondes,
+ à savoir de la super performance
+ et en même temps, quelque chose de relativement précis.
+ Mais ce qui est à peu près sûr, c'est que quantisation égale
+ perte de précision égale perte de performance.
+ Et c'est hyper traître, parce que tu peux garder le même nom.
+ Si ça se trouve, OpenAI, ils te disent qu'ils te donnent GPT-4,
+ mais en fait, dans la version web, par exemple,
+ c'est pas vraiment GPT-4, c'est la version quantisée à mort,
+ qui est hyper rapide et qui marche genre 5% moins bien ou 8% moins bien.
+ Ça peut être de cet ordre-là.
+ Pas assez pour que ce soit démontrable, vraiment,
+ mais suffisamment pour qu'on s'en rende compte et qu'on se dise
+ « C'est quand même bizarre, on a l'impression qu'il est pas bien réveillé. »
+ Et voilà, il y a une dernière explication qui est un peu troll
+ et que je vais vous garder pour la fin,
+ qui est que
+ on pense que GPT-4 et de manière générale les LLM
+ sont sensibles à des facteurs externes.
+ Donc par exemple, si dans le prompt-système il y a écrit « On est au mois de janvier »,
+ eh ben il y a des chances, enfin ça a été mesuré dans certains papiers,
+ qu'ils performent moins bien que si tu lui dis que t'es en mai, par exemple,
+ ou à une autre période de l'année, ou...
+ Peut-être que de manière générale, les gens sont plus motivés, travaillent mieux...
+ GPT a le vent de soleil, vieille vie !
+ Il a appris de nous, genre en hiver il a la flemme.
+ Exactement.
+ Donc c'est une autre théorie qui permet de l'expliquer.
+ Honnêtement, c'est plutôt pour la vanne,
+ parce que j'ai pas l'impression que ça a été démontré sur des très très grandes bases de données
+ et que ce soit vraiment très très fiable comme résultat,
+ mais c'est une des dernières explications.
+ Pour ceux qui seraient un peu déprimés par cette histoire,
+ eh ben rassurez-vous parce que récemment,
+ OpenAI a fait pas mal d'annonces qui sont un peu passées en sous-marin,
+ notamment sur des modèles, sur l'audio, la transcription, etc.
+ C'est dommage qu'on en parle pas parce qu'il y a vraiment des pipites
+ et on vous en parlait dans cette vidéo.
+ Et pour ceux qui étaient intéressés par notre partenaire Hostinger
+ et le builder de site par IA,
+ je vous ai fait une vidéo complète en description
+ sur 10 fonctionnalités avancées que peu de gens connaissent sur la plateforme.
+ Si vous hésitez à prendre un abonnement,
+ ça peut être intéressant d'aller regarder ça en détail.
