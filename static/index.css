@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-roboto-mono: "Roboto Mono";
+  
+    /* font sizes */
+    --font-size-6xl: 25px;
+  
+    /* Colors */
+    --color-darkslategray: #444438;
+    --color-wheat: #dfd3a9;
+  
+    /* Border radiuses */
+    --br-7xl: 26px;
+  }
+  
