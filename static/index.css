@@ -26,24 +26,26 @@ body {
   color: #3d3d3d;
 }
 
-.nav-buttons {
-  display: flex;
+.link {
+  text-decoration: none; /* This removes the underline */
 }
 
+
 .nav-btn {
-  padding: 0.5em 1em;
+  padding: 1em 2em;
   margin-left: 1.5em;
+  margin-top: 2em;
   border: none;
   border-radius: 20px;
-  font-size: 20px;
-  background-color: #DCD2AD;
+  font-size: 36px;
+  background-color: rgb(172, 190, 140);
   color: #3d3d3d;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .nav-btn:hover {
-  background-color: #8ea576;
+  background-color: rgb(140, 140, 100);
 }
 
 .main-content {
@@ -67,7 +69,6 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
-  margin-bottom: 12em;
   margin-right: 4em;
 }
 
