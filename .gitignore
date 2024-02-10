@@ -1,6 +1,7 @@
 data/
 models/
 summavenv/
+rag_db.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
