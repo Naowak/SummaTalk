@@ -5,17 +5,23 @@
     <title>FlaskApp</title>
 </head>
 <body>
-    <form action="/rag" method="post">
-        <button type="submit" id="myButton">Click Me</button>
+    <form method="post">
+        <input type="text" id="promptInput" name="prompt">
+        <button type="submit" id="submitButton">Click Me</button>
     </form>
     <h1>Hello World!</h1>
     <h2>Welcome to FlaskApp!</h2>
 </body>
 <script>
-    document.getElementById('myButton').addEventListener('click', function() {
+    document.getElementById('submitButton').addEventListener('click', function(event) {
+        event.preventDefault();
+        const prompt = document.getElementById('promptInput').value;
         fetch('/rag', {
             method: 'POST',
-            // Additional options like headers, body, etc., can be included here
+            body: JSON.stringify({ prompt }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
         }).then(response => {
             if (response.ok) {
                 console.log('Button clicked and function executed');

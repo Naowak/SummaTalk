@@ -31,7 +31,9 @@ def pagetwo():
 # Buttons Behaviour 
 @app.route('/rag', methods=['POST'])
 def rag():
-    prompt = request.form.get('prompt')
+    data = request.get_json()  # Get the JSON data sent with the request
+    prompt = data.get('prompt')  # Retrieve the 'prompt' value from the JSON data
+    print("inpuuuuut", prompt)
     chunks = find_closest_chunk(prompt, df, model)
     print(chunks)
-    return redirect(url_for('hello'))  # Redirect to the main page or another page
+    return 'Success'
