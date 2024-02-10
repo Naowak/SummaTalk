@@ -23,10 +23,6 @@ app = Flask(__name__)
 def hello():
     return render_template('index.html')
 
-@app.route('/pagetwo')
-def pagetwo():
-    return render_template('index2.html')
-
 
 # Buttons Behaviour 
 @app.route('/rag', methods=['POST'])
