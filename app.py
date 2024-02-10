@@ -20,8 +20,13 @@ def find_closest_chunk(query, df, model, n=3):
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
+def index():
     return render_template('index.html')
+
+
+@app.route('/upload')
+def upload():
+    return render_template('upload.html')
 
 
 # Buttons Behaviour 
