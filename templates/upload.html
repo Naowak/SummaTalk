@@ -24,6 +24,9 @@
         </div>
     </div>
     <div class="upload-container">
+        <div id="loading" style="display: none;">
+            <img class="loading" src="/static/loading.gif" alt="Loading...">
+        </div>
         <div class="select-container">
             <button class="select-btn">Select language</button>
             <button class="select-btn">Select Mission</button>
@@ -37,7 +40,28 @@
     });
 
     document.getElementById('audio-file').addEventListener('change', function() {
-        document.getElementById('audio-upload-form').submit();
+        var form = document.getElementById('audio-upload-form');
+        var formData = new FormData(form);
+        
+        // Display the loading gif
+        document.getElementById('loading').style.display = 'block';
+
+        // Make an AJAX request
+        fetch('{{ url_for("upload_file") }}', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json()) // Assuming your server responds with JSON
+        .then(data => {
+            // Hide the loading gif
+            document.getElementById('loading').style.display = 'none';
+
+            // Redirect to the result page with the summary
+            window.location.href = '{{ url_for("result") }}';
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
     });
 </script>
 </html>

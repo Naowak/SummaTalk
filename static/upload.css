@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+.loading {
+    width: 80%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;

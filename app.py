@@ -1,5 +1,5 @@
 import requests
-from flask import Flask, render_template, redirect, url_for, request
+from flask import Flask, render_template, redirect, url_for, request, jsonify
 import concurrent.futures
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
@@ -93,10 +93,12 @@ def index():
 def upload():
     return render_template('upload.html')
 
-@app.route('/result/<filename>')
-def result(filename):
-    #chunks = get_file_chunk(filename, df)
-    return render_template('result.html', filename=filename)
+@app.route('/result')
+def result():
+    with open('./summary.txt', 'r') as f:
+        summary = f.read()
+        print(summary)
+    return render_template('result.html', summary=summary)
 
 
 # Buttons Behaviour 
@@ -119,13 +121,15 @@ def upload_file():
         return redirect(request.url)
     if file:
         # Make summary !
+        print("summary begin")
         summary = make_summary(file.filename)
-        return redirect(url_for('result', summary=summary))
-    return redirect(url_for('upload'))
+        print(summary)
+        with open('./summary.txt', 'w+') as f:
+            f.write(summary)
+            print('Summary saved')
+        return jsonify({'summary': summary})
+    return jsonify({'error': 'No file uploaded'}), 400
 
-# @app.route('/summary/<filename>')
-# def summary(filename):
-#     return make_summary(filename)
 
 
 
