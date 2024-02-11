@@ -76,11 +76,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
-@app.route('/upload')
-def upload():
-    return render_template('upload.html')
-
 @app.route('/result')
 def result():
     with open('./summary.txt', 'r') as f:
@@ -89,13 +84,8 @@ def result():
     return render_template('result.html', summary=summary_html)
 
 
+
 # Buttons Behaviour 
-@app.route('/rag', methods=['POST'])
-def rag():
-    data = request.get_json()  # Get the JSON data sent with the request
-    prompt = data.get('prompt')  # Retrieve the 'prompt' value from the JSON data
-    chunks = find_closest_chunk(prompt, df, model)
-    return 'Success'
 
 # Load a file
 @app.route('/upload_file', methods=['POST'])
@@ -117,6 +107,12 @@ def upload_file():
     return jsonify({'error': 'No file uploaded'}), 400
 
 
+# @app.route('/rag', methods=['POST'])
+# def rag():
+#     data = request.get_json()  # Get the JSON data sent with the request
+#     prompt = data.get('prompt')  # Retrieve the 'prompt' value from the JSON data
+#     chunks = find_closest_chunk(prompt, df, model)
+#     return 'Success'
 
 
 if __name__ == '__main__':

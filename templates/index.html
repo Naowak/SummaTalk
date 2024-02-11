@@ -21,13 +21,50 @@
         <div class="main-text">
             <h2>Your Virtual Assistant</h2>
             <h3>We will capture every word for you.</h3>
-            <a href="/upload" class="link">
-                <button class="nav-btn">Start</button>
-            </a>
+            <!-- Upload mp3 -->
+            <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data" id="audio-upload-form">
+                <input type="file" name="file" id="audio-file" accept=".mp3" style="display: none;" />
+                <button type='button' class="nav-btn" id="submitAudio">Start</button>
+            </form>
+            <div>
+                <div id="loading" style="display: none;">
+                    <img class="loading" src="/static/loading.gif" alt="Loading...">
+                </div>
+            </div>
         </div>
         <img src="/static/picture.png" alt="Team Working">
     </div>
 </body>
+<script>
+    document.getElementById('submitAudio').addEventListener('click', function() {
+        document.getElementById('audio-file').click();
+    });
+
+    document.getElementById('audio-file').addEventListener('change', function() {
+        var form = document.getElementById('audio-upload-form');
+        var formData = new FormData(form);
+        
+        // Display the loading gif
+        document.getElementById('loading').style.display = 'block';
+
+        // Make an AJAX request
+        fetch('{{ url_for("upload_file") }}', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json()) // Assuming your server responds with JSON
+        .then(data => {
+            // Hide the loading gif
+            document.getElementById('loading').style.display = 'none';
+
+            // Redirect to the result page with the summary
+            window.location.href = '{{ url_for("result") }}';
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>
 </html>
 
 

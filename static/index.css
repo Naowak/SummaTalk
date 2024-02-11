@@ -30,6 +30,13 @@ body {
   text-decoration: none; /* This removes the underline */
 }
 
+.loading {
+  margin-top: -8em;
+  max-width: 40px; /* Adjust as needed */
+  height: auto; /* This will maintain the aspect ratio */
+}
+
+
 
 .nav-btn {
   padding: 1em 2em;
