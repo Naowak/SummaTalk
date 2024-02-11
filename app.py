@@ -1,33 +1,21 @@
 import requests
+import markdown
 from flask import Flask, render_template, redirect, url_for, request, jsonify
 import concurrent.futures
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
 
-# Prompt
-PROMPT = """Je vais t'envoyer un texte commencant et finissant par des guillemets.
-- Tu es un secretaire.  
-- On veut un compte rendu en markdown de ce texte tire de l'enregistrement d'une video. 
+# Prompts
+PROMPT_INNER = """Resume le texte ci-dessus."""
 
-Instruction importantes:
-- Ecrit entierement ta reponse en markdown.
-- Tu dois ecrire en markdown.
-
-Tes instructions :
-- Structure l'information.
-- Donne un titre au texte.
-- Decoupe le texte en 2 ou 3 grandes parties en les numerotant et titre les.
-- Decoupe les parties en sous partie en les numerorant.
-- Fait un point pour chaque information.
-- Fait des phrases avec un sujet, un verbe et un complement et un determinant pour les noms pour chaque point.
-- Ecrit en francais.
-- Si tu veux ecrire le texte en anglais, ecrit en francais.
-- On veut que l'information soit structure.
-- Ecrit entierement ta reponse en markdown, c'est important.
-- Tu dois ecrire en markdown. 
-- Ne repete pas les memes informations.
-- Ne fait pas de conclusion.  
+PROMPT = """Tu es un expert pour faire des comptes rendues structuré et formel de vidéo.
+Précédemment, tu as résumé plusieurs parties d'une même vidéo.
+Je vais t'envoyer l'ensemble de ces-dits résumés que tu as déjà produit.
+Tu dois maintenant me produire un seul et unique compte rendu faisant une synthèse de l'ensemble de ces résumés.
+Le résultat final ne doit pas laisser paraitre qu'il s'agit d'une synthèse de plusieurs résumés. Mais bien d'un seul et unique document.
+Tu dois trouver un titre au document, puis rédiger différentes parties et sous-parties pour structurer l'information.
+Le résultat doit être écris en français, et sous le format markdown.
 """
 
 # Load the model
@@ -73,7 +61,7 @@ def make_summary(filename):
     chunks = group_chunks_by(get_file_chunk(filename, df), 8)
     prompts = []
     for chunk in chunks:
-        prompt = PROMPT + "\"" + ''.join(chunk) + "\"\n\n"
+        prompt = ''.join(chunk) + "\n\n" + PROMPT_INNER + "\n\n"
         prompts.append(prompt)
     results = make_several_completion_requests(prompts)
     summaries = [result['choices'][0]['text'] for result in results]
@@ -97,8 +85,8 @@ def upload():
 def result():
     with open('./summary.txt', 'r') as f:
         summary = f.read()
-        print(summary)
-    return render_template('result.html', summary=summary)
+    summary_html = markdown.markdown(summary)
+    return render_template('result.html', summary=summary_html)
 
 
 # Buttons Behaviour 
@@ -123,10 +111,8 @@ def upload_file():
         # Make summary !
         print("summary begin")
         summary = make_summary(file.filename)
-        print(summary)
         with open('./summary.txt', 'w+') as f:
             f.write(summary)
-            print('Summary saved')
         return jsonify({'summary': summary})
     return jsonify({'error': 'No file uploaded'}), 400
 

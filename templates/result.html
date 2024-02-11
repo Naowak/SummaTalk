@@ -28,9 +28,17 @@
         <div class="results">
             <div class="header">Result</div>
             <div class="output">
-                <p>{{ summary }}</p>
+                <div class="markdown-content">{{ summary|safe }}</div>
             </div>
         </div>
     </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const summaryMarkdown = `{{ summary|safe }}`;
+        const summaryHtml = marked(summaryMarkdown);
+        document.querySelector('.markdown-content').innerHTML = summaryHtml;
+    });
+</script>
 </html>

@@ -41,6 +41,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
     overflow: hidden;
+    height: 600px; /* Adjust as needed */
 }
 
 .header {
@@ -85,6 +86,14 @@ body {
 .results {
     flex-basis: 60%; /* Adjust as needed */
 }
+
+.output {
+    height: 600px; /* Adjust as needed */
+    padding: 1em;
+    border: 1px solid #ccc;
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
 
 .chatbox {
     flex-basis: 30%; /* Adjust as needed */
