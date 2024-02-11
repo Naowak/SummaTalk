@@ -14,16 +14,16 @@
             </div>
         </a>
         <div class="nav-buttons">
-            <button class="nav-btn">Audio file</button>
+            <!-- Upload mp3 -->
+            <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data" id="audio-upload-form">
+                <input type="file" name="file" id="audio-file" accept=".mp3" style="display: none;" />
+                <button type="button" class="nav-btn" id="submitAudio">Audio file</button>
+            </form>
             <button class="nav-btn">PDF file</button>
             <button class="nav-btn">Real time</button>
         </div>
     </div>
     <div class="upload-container">
-        <div class="upload-box">
-            <span class="upload-text">Upload your file here</span>
-            <div class="upload-arrow">&#x2191;</div>
-        </div>
         <div class="select-container">
             <button class="select-btn">Select language</button>
             <button class="select-btn">Select Mission</button>
@@ -31,4 +31,13 @@
         <button class="go-btn">GO!</button>
     </div>
 </body>
+<script>
+    document.getElementById('submitAudio').addEventListener('click', function() {
+        document.getElementById('audio-file').click();
+    });
+
+    document.getElementById('audio-file').addEventListener('change', function() {
+        document.getElementById('audio-upload-form').submit();
+    });
+</script>
 </html>

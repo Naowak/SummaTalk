@@ -16,6 +16,11 @@ def find_closest_chunk(query, df, model, n=3):
     ids = similarity.sort_values(ascending=False).head(n)
     return df.loc[ids.index].text.tolist()
 
+def get_file_chunk(filename, df):
+    chunks = df[df.filename == filename.split('.')[0]].text.tolist()
+    print("chunkkk", chunks)
+    return ''.join(chunks)
+
 # Load the App
 app = Flask(__name__)
 
@@ -28,6 +33,11 @@ def index():
 def upload():
     return render_template('upload.html')
 
+@app.route('/result/<filename>')
+def result(filename):
+    #chunks = get_file_chunk(filename, df)
+    return render_template('result.html', filename=filename)
+
 
 # Buttons Behaviour 
 @app.route('/rag', methods=['POST'])
@@ -36,6 +46,22 @@ def rag():
     prompt = data.get('prompt')  # Retrieve the 'prompt' value from the JSON data
     chunks = find_closest_chunk(prompt, df, model)
     return 'Success'
+
+# Load a file
+@app.route('/upload_file', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        print('No file part')
+        return redirect(request.url)
+    file = request.files['file']
+    if file.filename == '':
+        print('No selected file')
+        return redirect(request.url)
+    if file:
+        file.filename
+        return redirect(url_for('result', filename=file.filename))
+    return redirect(url_for('upload'))
+
 
 
 if __name__ == '__main__':

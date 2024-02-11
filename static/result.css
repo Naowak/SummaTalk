@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4e6c3;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust as needed */
+}
+
+.logo h1 {
+    margin-left: 0.5em;
+    color: #3d3d3d;
+}
+
+.link {
+    text-decoration: none; /* This removes the underline */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.chatbox, .results {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #e7f0dd;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.messages, .output {
+    height: 400px; /* Adjust as needed */
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+.input-area {
+    display: flex;
+    padding: 1em;
+    border-top: 1px solid #ccc;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.5em;
+}
+
+.input-area button {
+    padding: 0.5em 1em;
+    background-color: #e7f0dd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background-color: #d6e2c4;
+}
+
+.results {
+    flex-basis: 60%; /* Adjust as needed */
+}
+
+.chatbox {
+    flex-basis: 30%; /* Adjust as needed */
+}
