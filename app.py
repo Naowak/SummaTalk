@@ -118,13 +118,14 @@ def upload_file():
         print('No selected file')
         return redirect(request.url)
     if file:
-        file.filename
-        return redirect(url_for('result', filename=file.filename))
+        # Make summary !
+        summary = make_summary(file.filename)
+        return redirect(url_for('result', summary=summary))
     return redirect(url_for('upload'))
 
-@app.route('/summary/<filename>')
-def summary(filename):
-    return make_summary(filename)
+# @app.route('/summary/<filename>')
+# def summary(filename):
+#     return make_summary(filename)
 
 
 
